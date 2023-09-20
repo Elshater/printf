@@ -1,5 +1,7 @@
 0x11. C - printf
 # printf 
 team of 2 Nora and Ehab
-collaboration into one reposatort
+collaboration
 for a function resembling printf
+with a given tesr code main.c
+
