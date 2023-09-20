@@ -6,7 +6,7 @@
 * @format: format
 * Return: int
 */
-int _printf(char *format, ...)
+int _printf(const char *format, ...)
 {
 	va_list ap;
 
