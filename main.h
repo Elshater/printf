@@ -1,9 +1,8 @@
 #ifndef PRINTF_MAIN_H
-#define PRINTFO_MAIN_H
+#define PRINTF_MAIN_H
 
 
 #define NULL_STRING "(null)"
-
 
 #include <stdarg.h>
 #include <stdio.h>
