@@ -4,11 +4,12 @@
 *@specifier: format specifier
 *@ap: argument pointer
 *
-* Return: int
+* Return: int number of bytes
 */
 int print_format(char specifier, va_list ap)
 {
 	int count;
+
 
 	count = 0;
 	if (specifier == 'c')

@@ -4,7 +4,7 @@
 *_putchar - print c
 *
 * @c: input charcter
-*Return: int
+*Return: int 1 if sucess -1 if error
 */
 int _putchar(int c)
 {

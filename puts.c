@@ -2,7 +2,7 @@
 /**
 * _puts - print string
 * @s: input string
-* Return: int
+* Return: int number of bytes printed
 */
 int _puts(char *s)
 {

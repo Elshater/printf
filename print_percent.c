@@ -3,9 +3,10 @@
 /**
 * print_percent - prints %
 *
-* Return: int
+* Return: int number of bytes
 */
 int print_percent(void)
 {
+
 	return (_putchar('%'));
 }
