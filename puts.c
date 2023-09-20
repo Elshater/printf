@@ -8,6 +8,10 @@ int _puts(char *s)
 {
 	int count = 0;
 
+
+	if ((int)(!s) == 1)
+        	s = NULL_STRING;
+
 	while (*s)
 	{
 		_putchar((int) *s);
