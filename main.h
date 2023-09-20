@@ -20,7 +20,7 @@ int print_format(char specifier, va_list ap);
 
 int print_percent(void);
 
-int _printf(char *format, ...);
+int _printf(const char *format, ...);
 
 
 
