@@ -3,7 +3,7 @@
 /**
 * _printf - printf clone
 *
-* @format: specifier
+* @format: format
 * Return: int
 */
 int _printf(char *format, ...)
@@ -15,9 +15,9 @@ int _printf(char *format, ...)
 	va_start(ap, format);
 
 	if (!format || (format[0] == '%' && !format[1]))
-        	return (-1);
-    	if (format[0] == '%' && format[1] == ' ' && !format[2])
-        	return (-1);
+		return (-1);
+	if (format[0] == '%' && format[1] == ' ' && !format[2])
+		return (-1);
 
 	while (*format != '\0')
 	{
